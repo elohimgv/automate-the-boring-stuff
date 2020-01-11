@@ -10,33 +10,23 @@ grid = [['.', '.', '.', '.', '.', '.'],
 ['.', 'O', 'O', '.', '.', '.'],
 ['.', '.', '.', '.', '.', '.']]
 
-for x in range(len(grid)):
-    print(grid[x][0], end='')
+# Function to print the grid
+def printTheGrid(y):
+    for x in range(len(grid)):
+        print(grid[x][y], end='')
+        
+    print()
 
-print()
+printTheGrid(0)
+printTheGrid(1)
+printTheGrid(2)
+printTheGrid(3)
+printTheGrid(4)
+printTheGrid(5)
 
-for x in range(len(grid)):
-    print(grid[x][1], end='')
 
-print()
 
-for x in range(len(grid)):
-    print(grid[x][2], end='')
 
-print()
-
-for x in range(len(grid)):
-    print(grid[x][3], end='')
-
-print()
-
-for x in range(len(grid)):
-    print(grid[x][4], end='')
-
-print()
-
-for x in range(len(grid)):
-    print(grid[x][5], end='')
 
 
 
