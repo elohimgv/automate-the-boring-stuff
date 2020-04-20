@@ -1,9 +1,17 @@
 # Program name comma_code.py
 
+# My list of things
 spam = ['apples', 'bananas', 'tofu', 'cats']
 
-def things(list_of_things): 
-    newType = list_of_things[0] + ', ' + list_of_things[1] + ', ' + list_of_things[2] + ', ' + 'and' + ', ' + list_of_things[3]
-    return print(newType)
+def printTheList(someList):
+    for item in range(len(someList)): # Iterate through the list 
+        if item < len(someList)-2:
+            component = ', '
+        elif item == len(someList)-2:
+            component = ' and '
+        elif item == len(someList)-1:
+            component = ' '
+        print(someList[item] + component, end='')
 
-things(spam)
+# Call a function
+printTheList(spam)
