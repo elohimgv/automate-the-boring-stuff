@@ -1,3 +1,4 @@
+#! python3 
 # Program name: table_printer.py
 
 # Data list

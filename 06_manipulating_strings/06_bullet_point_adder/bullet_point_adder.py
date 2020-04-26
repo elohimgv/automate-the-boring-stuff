@@ -1,16 +1,15 @@
-#! /usr/bin/python 
-# bullet_point_adder.py - Adds Wikipedia bullet point 
-# to the start of each line of text on the clipboard.
+#! python3 
+# Program name: bullet_point_adder.py
 
-# Revising where is the module 'pyperclip' from the PYTHONPATH. 
-# To know the PMSP (Python Module Search Path), invoke this:
+# To know where is the module 'pyperclip' from the PYTHONPATH. 
+# PMSP (Python Module Search Path), invoke this:
 # import sys
 # for i in sys.path:
 #    print(i)
 import pyperclip 
 
-# Variable to store text; using method paste() 
-# from module pyperclip 
+pyperclip.copy('Lists of animals\nLists of aquarium life\nLists of biologists by author abbreviation\nLists of cultivars')
+# Variable to store text
 text = pyperclip.paste()
 # Separate lines and add stars.
 lines = text.split('\n') 
