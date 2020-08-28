@@ -6,7 +6,7 @@ string = "Remember we are working with REGEX"
 print(string.upper())
 
 # Creating a regex object
-plenetRegex = re.compile(r'Satur(na)*no')
+plenetRegex = re.compile(r'Satur(na)*no') # Matches 0 or more repetitions of the preceding RE
 
 while True:
     txt = input("What is the sixth planet on the solar sistem? ")
