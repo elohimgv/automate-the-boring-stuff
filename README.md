@@ -7,7 +7,7 @@ Part I: Python Programming Basics
 * [Chapter 2: Flow Control](https://github.com/elohimgv/automate-the-boring-stuff-with-python/tree/master/02_flow_control)
 * [Chapter 3: Functions](https://github.com/elohimgv/automate-the-boring-stuff-with-python/tree/master/03_functions)
 * [Chapter 4: Lists](https://github.com/elohimgv/automate-the-boring-stuff-with-python/tree/master/04_lists)
-* [Chapter 5: Dictionaries and Structuring Data](https://github.com/elohimgv/automate-the-boring-stuff-with-  python/tree/master/05_dictionaries_and_structuring_data)
+* [Chapter 5: Dictionaries and Structuring Data](https://github.com/elohimgv/automate-the-boring-stuff-with-python/tree/master/chapter_05)
 * [Chapter 6: Manipulating Strings](https://github.com/elohimgv/automate-the-boring-stuff-with-python/tree/master/06_manipulating_strings)
 
 Part II: Automating Tasks
