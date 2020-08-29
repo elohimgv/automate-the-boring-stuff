@@ -1,5 +1,3 @@
-# Program name: fantasy_game_inventory_2.py
-
 def displayInventory(inventory):
     print("Inventory:")
     item_total = 0
@@ -19,6 +17,7 @@ def addToInventory(inventory, addedItems):
 # Global variables
 inv = {'gold coin': 42, 'rope': 1}
 dragonLoot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
+
 # Calling functions
 inv = addToInventory(inv, dragonLoot)
 displayInventory(inv)

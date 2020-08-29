@@ -1,4 +1,3 @@
-# Program name: tic_tac_toe.py
 # This isn't a complete tic-tac-toe, but it's
 # enough to wee how data structures can be used
 
@@ -25,6 +24,7 @@ for i in range(9):
         turn = 'O'
     else:
         turn = 'X'
+
 # Calling a function printBoard()    
 printBoard(theBoard)
 

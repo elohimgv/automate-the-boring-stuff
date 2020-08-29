@@ -1,5 +1,3 @@
-# Program name: fantasy_game_inventory.py
-
 # Inventory
 stuff = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow': 12}
 
@@ -11,4 +9,5 @@ def displayInventory(inventory):
         print(v, k)
     print("Total number of items: " + str(item_total))
 
+# Calling a function
 displayInventory(stuff)

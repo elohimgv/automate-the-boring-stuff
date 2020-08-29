@@ -1,5 +1,3 @@
-# Program name: picnic.py
-
 # Define my dictionary
 allGuests = {'Alice': {'apples': 5, 'pretzels': 12},
             'Bob':{'ham sandwiches': 3, 'apples': 2},
