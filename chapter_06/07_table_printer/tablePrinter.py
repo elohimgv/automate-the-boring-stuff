@@ -1,5 +1,4 @@
 #! python3 
-# Program name: table_printer.py
 
 # Data list
 tableData = [['apples', 'oranges', 'cherries', 'banana'],
@@ -24,5 +23,5 @@ def printTable(table):
             print(table[index][data].rjust(colWidths[index]), end=' ')
         print()
 
-# Calling a function
+# Calling function
 printTable(tableData)

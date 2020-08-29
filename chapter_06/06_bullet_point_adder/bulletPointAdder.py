@@ -1,11 +1,11 @@
 #! python3 
-# Program name: bullet_point_adder.py
 
 # To know where is the module 'pyperclip' from the PYTHONPATH. 
 # PMSP (Python Module Search Path), invoke this:
 # import sys
 # for i in sys.path:
 #    print(i)
+
 import pyperclip 
 
 pyperclip.copy('Lists of animals\nLists of aquarium life\nLists of biologists by author abbreviation\nLists of cultivars')

@@ -1,5 +1,3 @@
-# Program name: validate_input.py
-
 while True:
     print('Enter you age:')
     age = input()

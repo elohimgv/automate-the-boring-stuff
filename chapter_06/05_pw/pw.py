@@ -1,11 +1,10 @@
-#! python3
-# Program name: pw.py 
+#! python3 
 
 PASSWORDS = {'email': 'F7minlBDDuvMJuxESSKHFhTxFtjVB6',
              'blog': 'VmALvQyKAxiVH5G8v01if1MLZF3sdt',
              'luggage': '12345'}
 
-# Module
+# Modules
 import sys
 import pyperclip
 
