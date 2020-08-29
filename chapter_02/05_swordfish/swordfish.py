@@ -1,5 +1,4 @@
 # Practice while loop statement with continue statement
-# Program name: swordfish.py
 
 while True:
     print("Who are you?")

@@ -1,5 +1,4 @@
 # Practice for loop statement 
-# Program name: five_times.py
 
 print("My name is")
 for i in range(5):

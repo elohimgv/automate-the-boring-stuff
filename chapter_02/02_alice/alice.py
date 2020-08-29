@@ -1,5 +1,4 @@
 # Practice if, elif statement and else option. 
-# Program name: alice.py
 
 name = 'Chayanne'
 age = 101

@@ -1,5 +1,4 @@
 # Practice while loop
-# Program name: your_name.py
 
 name = ''
 while name != 'your name':

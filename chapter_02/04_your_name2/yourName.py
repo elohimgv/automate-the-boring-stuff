@@ -1,5 +1,4 @@
 # Practice while loop statement with break statement
-# Program name: your_name2.py
 
 while True:
     print("Please type your name.")
