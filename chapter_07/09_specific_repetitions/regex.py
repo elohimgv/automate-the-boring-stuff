@@ -1,4 +1,3 @@
-# Program name: specific_repetitions.py
 #Import module re
 import re
 
@@ -12,16 +11,16 @@ def fromMtoNrepetition(txt, m, n, q):
     (str){,5} match zero to five instances
     """
     if q == '?':
-         # Creating a regex object
+         # Creating regex object
         regex = re.compile(r'('+ txt +'){'+ str(m) +','+ str(n) +'}?')
     else:
-         # Creating a regex object
+         # Creating regex object
         regex = re.compile(r'('+ txt +'){'+ str(m) +','+ str(n) +'}')
 
     # Matching object
     mo = regex.search("HaHaHaHaHaHa")
-    # Return matching object
+    # Print matching object
     print(mo.group())
 
-# Calling a function
+# Calling function
 fromMtoNrepetition('Ha', 3, '', '')
