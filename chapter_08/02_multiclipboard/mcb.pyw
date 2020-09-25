@@ -1,8 +1,8 @@
 #! python3
-# multiclipboard.pyw - Saves and loads pieces of text to the clipboard.
-# Usage: python.exe multiclipboard.pyw save <keyword> - Saves clipboard to keyword.
-#        python.exe multiclipboard.pyw <keyword> - Loads keyword to clipboard
-#        python.exe multiclipboard.pyw list - Loads all keywords to clipboard.
+# mcb.pyw - Saves and loads pieces of text to the clipboard.
+# Usage: python.exe mcb.pyw save <keyword> - Saves clipboard to keyword.
+#        python.exe mcb.pyw <keyword> - Loads keyword to clipboard
+#        python.exe mcb.pyw list - Loads all keywords to clipboard.
 
 import shelve, pyperclip, sys
 
