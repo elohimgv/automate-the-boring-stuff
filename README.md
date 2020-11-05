@@ -13,3 +13,4 @@ Part I: Python Programming Basics
 Part II: Automating Tasks
 * [Chapter 7: Pattern Matching with Regular Expressions](https://github.com/elohimgv/automate-the-boring-stuff/tree/master/chapter_07)
 * [Chapter 8: Reading and Writing Files](https://github.com/elohimgv/automate-the-boring-stuff/tree/master/chapter_08)
+* [Chapter 9: Organizing Files](https://github.com/elohimgv/automate-the-boring-stuff/tree/master/chapter_09)
