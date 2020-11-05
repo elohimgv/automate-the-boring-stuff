@@ -3,7 +3,7 @@
 
 import os
 
-for folderName, subfolders, filenames in os.walk('/home/elohim/delicious'):
+for folderName, subfolders, filenames in os.walk('/home/usr/delicious'):
 	print('The current folder is ' + folderName)
 
 
