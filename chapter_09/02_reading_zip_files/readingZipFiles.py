@@ -4,7 +4,7 @@ import zipfile, os
 
 # Move to the folder with example.zip
 os.chdir('./Documets') 
-# Object zip file
+# A ZipFile object
 exampleZip = zipfile.ZipFile('example.zip')
 print(exampleZip.namelist()) 
 # Return a list for all the files and folders contained
